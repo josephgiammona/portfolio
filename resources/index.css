@@ -18,6 +18,14 @@ html{
     text-align: center;
 }
 
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.7rem;
+    display: block !important;
+    margin: auto;
+    margin-top: 1rem;
+}
+
 header {
     position: fixed;
     left: 0;
@@ -110,7 +118,10 @@ header nav h1{
 
 
 }
-
+.aboutMe{
+    margin: auto;
+    margin-top: 2rem;
+}
 main .aboutMeBackground{
     display: flex;
     flex:1;
