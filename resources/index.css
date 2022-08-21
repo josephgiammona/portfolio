@@ -46,7 +46,7 @@ header nav {
     padding-right: .5rem;
     background-color:white;/* hsla(225, 23%, 27%); */
     z-index: 2;
-    border-bottom:2px solid black;
+    border-bottom:.125rem solid black;
 }
 
 
