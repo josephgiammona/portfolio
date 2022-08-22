@@ -215,6 +215,7 @@ main .bio, .bio p{
 .projects{
     display: flexbox;
     flex: 1;
+    margin: auto;
 }
 
 .projects .projectsContainer{
@@ -231,6 +232,7 @@ main .bio, .bio p{
 .project {
     display: flex;
     flex:1;
+    align-content: space-between;
     margin: 1rem;
     min-width: 15rem;
     max-width: 15rem;
