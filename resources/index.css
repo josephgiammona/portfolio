@@ -23,8 +23,8 @@ h2{
     font-size: 2rem;
     display: block !important;
     margin: auto;
-    margin-top: 3.7rem;
-    margin-bottom: 3rem;
+    margin-top: 2.7rem;
+    margin-bottom: 2rem;
     text-shadow: 3px 3px white(0, 0%, 0%);
 }
 
@@ -223,13 +223,37 @@ main .bio, .bio p{
     align-items: center;
     width: 100%;
     height: 20rem;
+    overflow: scroll;
+    
     
 }
 
 .project {
-    margin: auto;
-    width: 30%;
-    height: 20rem;
+    display: flex;
+    flex:1;
+    margin: 1rem;
+    min-width: 15rem;
+    max-width: 15rem;
+    min-height: 15rem;
+    max-height: 15rem;
     border: .125rem black solid;
     border-radius: 1rem;
+    text-align: left;
+    padding: .5rem;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.project h3, .project p{
+    padding: .5rem;
+    padding-top: 0;
+} 
+
+.project h3{
+    font-size: 1.2rem;
+}
+
+.projectsContainer a {
+    color: black;
+    text-decoration-line: none;
 }
