@@ -285,8 +285,9 @@ main .bio, .bio p{
     margin: auto;
 } 
 
-.project h3{
+.project h3, h3{
     font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 .projectsDescription h3{
@@ -304,7 +305,7 @@ main .bio, .bio p{
 
 .skills{
     max-width: 500px;
-    height: 12rem; 
+    height: 10rem; 
     margin: auto;
 }
 
@@ -328,4 +329,10 @@ main .bio, .bio p{
     max-height: 2.5rem;
     margin: auto;
 
+}
+
+footer{
+    min-height: 9rem;
+    max-width: 500px;
+    margin: auto;
 }
