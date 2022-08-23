@@ -332,7 +332,18 @@ main .bio, .bio p{
 }
 
 footer{
-    min-height: 9rem;
+    min-height: 7rem;
     max-width: 500px;
     margin: auto;
+}
+
+footer h3, footer p{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+footer a{
+    color: black;
+    text-decoration-line: none;
 }
