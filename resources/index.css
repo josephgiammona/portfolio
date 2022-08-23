@@ -24,8 +24,8 @@ h2{
     font-size: 2rem;
     display: block !important;
     margin: auto;
-    margin-top: 2.7rem;
-    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
     text-shadow: 3px 3px white(0, 0%, 0%);
 }
 
@@ -300,4 +300,26 @@ main .bio, .bio p{
 .projectsContainer a {
     color: black;
     text-decoration-line: none;
+}
+
+.iconsContainer {
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    height: 6rem;
+    margin: auto;
+}
+
+.iconsContainer i {
+    font-size: 2.5rem;
+    margin: auto;
+}
+
+.iconsContainer img{
+    max-width: 2.5rem;
+    max-height: 2.5rem;
+    margin: auto;
+
 }
