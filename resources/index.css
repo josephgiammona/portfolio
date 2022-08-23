@@ -302,13 +302,19 @@ main .bio, .bio p{
     text-decoration-line: none;
 }
 
+.skills{
+    max-width: 500px;
+    height: 12rem; 
+    margin: auto;
+}
+
 .iconsContainer {
     display: flex;
     flex:1;
     justify-content: center;
     align-items: center;
     max-width: 500px;
-    height: 6rem;
+    height: 5rem;
     margin: auto;
 }
 
