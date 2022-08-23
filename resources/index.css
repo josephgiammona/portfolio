@@ -16,6 +16,7 @@ html{
     margin: 0;
     padding:0;
     text-align: center;
+    background-color: tomato;
 }
 
 h2{
@@ -30,6 +31,7 @@ h2{
 
 header {
     position: fixed;
+    display: block;
     left: 0;
     right: 0;
     top: 0;
@@ -46,17 +48,20 @@ header nav {
     position: fixed;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    align-content: center;
+    justify-content: space-evenly;
     top: 0;
     max-width: 100%;
     min-width: 100%;
     height: 5rem;
     margin: auto;
+    background-color: white;
+    margin-right: 0;
     padding-left: .5rem;
     padding-right: .5rem;
-    background-color:white;/* hsla(225, 23%, 27%); */
+    background-color: hsl(0, 0%, 90%);
     z-index: 2;
-    border-bottom:.125rem solid black;
+    border-bottom:.1rem solid black;
 }
 
 
@@ -67,10 +72,10 @@ nav h1{
     margin: .5rem;
     padding: .5rem;
     color: black;
-    text-shadow: -3px 3px white(0, 0%, 0%);
+    text-shadow: -4px 4px black(0, 0%, 0%);
     letter-spacing: .09rem;
     min-width: 20%;
-    
+    z-index: 5;
 }
 
 nav h1, nav ul, nav ul li, nav ul li a{
@@ -105,6 +110,10 @@ main{
     top: 5rem;
     left: 0;
     right: 0;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    
 }
 
 
@@ -171,15 +180,15 @@ main .bio{
     margin-left: 1rem;
     border-radius: 6rem 2rem;
     font-size: 1.2rem;
-    border: 2px black solid;
-    /*background-color: hsl(225, 73%, 20%);*/
+    border: .125rem black solid;
+    background-color:hsla(9, 100%, 64%, 0.505);
+    
 }
 
 main .bio, .bio p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.5rem;
-    letter-spacing: 1px;
-    max-height: 90%;
+    letter-spacing: 1px;;
     overflow: scroll;
     color: black;
 }
@@ -225,12 +234,14 @@ main .bio, .bio p{
 .projects .projectsContainer{
     display: flex;
     flex: 1;
-    margin-left: 30%;
+    margin: auto;
+    margin-right: 0;
     align-items: center;
     width: 70%;
     height: 20rem;
     overflow: scroll;
-    
+    border-left: .125rem solid black;
+    border-right: .125rem solid black;
     
 }
 
@@ -252,6 +263,22 @@ main .bio, .bio p{
     letter-spacing: .09rem;
     
 }
+.projectsDescription{
+    display: block;
+    
+    min-width: 17rem;
+    max-width: 17rem;
+    min-height: 17rem;
+    max-height: 17rem;
+    border: .125rem black solid;
+    border-radius: 1rem;
+    text-align: center;
+    padding: .5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: .09rem;
+    margin: auto;
+    background-color: hsla(51, 100%, 64%, 0.505);
+}
 
 .project h3, .project p{
     padding: 1rem;
@@ -260,6 +287,14 @@ main .bio, .bio p{
 
 .project h3{
     font-size: 1.2rem;
+    
+}
+.projectsDescription h3{
+    margin: auto;
+    margin-top: .8rem;
+    padding: 0;
+    max-width: 90%;
+  
 }
 
 .projectsContainer a {
