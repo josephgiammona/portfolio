@@ -265,7 +265,7 @@ main .bio, .bio p{
     flex-wrap: wrap;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: .09rem;
-    
+    transition: .5s;
 }
 
 .project:hover {
@@ -345,7 +345,7 @@ main .bio, .bio p{
 }
 
 footer{
-    min-height: 7rem;
+    min-height: 8rem;
     max-width: 500px;
     margin: auto;
 }
@@ -359,7 +359,7 @@ footer h3, footer p{
 footer h3 {
     border-top: .125rem black solid;
     
-    max-width: 50%;
+    max-width: 75%;
 }
 
 footer a{
