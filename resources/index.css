@@ -236,16 +236,17 @@ main .bio, .bio p{
     flex: 1;
     margin: auto;
     margin-top: 1rem;
-    margin-right: 0;
+    /* margin-right: 0; */
     align-items: center;
-    width: 70%;
+    width: 85%;
     height: 20rem;
     overflow: scroll;
     border-left: .125rem solid black;
+    border-right: .125rem solid black;
     border-bottom: .125rem solid black;
     border-top: .125rem solid black;
     border-top-left-radius: 3rem;
-    /* border-right: .125rem solid black; */
+    border-top-right-radius: 3rem;
     
 }
 
